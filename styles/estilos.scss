@@ -105,6 +105,46 @@
         }
     }
 }
+
+
+//FORMULARIO
+.formContainer{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
+.field {
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .field label {
+    display: block;
+    font-size: 12px;
+    color: #ffffff;
+    border-radius: 10px;
+  }
+  .field input {
+    display: block;
+    min-width: 250px;
+    line-height: 1.5;
+    font-size: 14px;
+    border-radius: 10px;
+    color: #000000;
+    padding: 10px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    padding: 6px 30px;
+    font-size: 14px;
+    background-color: #4460AA;
+    border-radius: 10px;
+    color: #fff;
+    border: none
+  }
+//ENDFORMULARIO
+
+
 .bodyCompras{
     background-color: #cccccc;
 }
@@ -346,47 +386,6 @@
    img{
     border-radius: 10px;
    }
-
-   .formContainer{
-    display: flex;
-    flex-direction: column;
-    margin-left: 10%;
-    margin-top: 2%;
-    color: #000000;
-
-    .consultaBox{
-        border:2px solid#007a88;
-        font-family: "Karla", sans-serif;
-        width: 100%;
-        color: #000000;
-        border-radius: 10px;
-        padding: 20px;
-    }
-    .sendInfoBox{
-        border:2px solid#007a88;
-        font-family: "Karla", sans-serif;
-        width: 100%;
-        color: #000000;
-        border-radius: 10px;
-    }
-
-    .emailInfo{
-        margin-top: 2%;
-        margin-bottom: 2%;
-        font-family: "Karla", sans-serif;
-
-        .emailBox{
-            border:2px solid#007a88;
-            color: #000000;
-            border-radius: 10px;
-        }
-        .numBox{
-            border:2px solid#007a88;
-            color: #000000;
-            border-radius: 10px;
-        }
-    }
-   }
 }
 .mapouter{
     border: rgb(0, 0, 0) solid 2px;
@@ -546,50 +545,6 @@
      
         img{
          border-radius: 10px;
-        }
-     
-        .formContainer{
-         display: flex;
-         flex-direction: column;
-         margin-left: 5%;
-         margin-top: 2%;
-         color: #000000;
-     
-         .consultaBox{
-             border:2px solid#007a88;
-             font-family: "Karla", sans-serif;
-             width: 80%;
-             color: #000000;
-             border-radius: 10px;
-             padding: 20px;
-         }
-         .sendInfoBox{
-             border:2px solid#007a88;
-             font-family: "Karla", sans-serif;
-             width: 80%;
-             color: #000000;
-             border-radius: 10px;
-         }
-     
-         .emailInfo{
-             margin-top: 2%;
-             margin-bottom: 2%;
-             font-family: "Karla", sans-serif;
-     
-             .emailBox{
-                width: 80%;
-                 border:2px solid#007a88;
-                 color: #000000;
-                 border-radius: 10px;
-                 margin-bottom: 1%;
-             }
-             .numBox{
-                width: 80%;
-                 border:2px solid#007a88;
-                 color: #000000;
-                 border-radius: 10px;
-             }
-         }
         }
      }
 }
@@ -784,58 +739,6 @@
         }
         img{
             border-radius: 10px;
-        }
-     
-        .formContainer{
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         margin-left: 5%;
-         margin-top: 2%;
-         color: #000000;
-     
-         .consultaBox{
-             border:2px solid#007a88;
-             font-family: "Karla", sans-serif;
-             width: 70%;
-             color: #000000;
-             border-radius: 10px;
-
-         }
-         .sendInfoBox{
-             border:2px solid#007a88;
-             font-family: "Karla", sans-serif;
-             width: 50%;
-             color: #000000;
-             border-radius: 10px;
-             margin-bottom: 4%;
-         }
-     
-         .emailInfo{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            width: 100%;
-            margin-top: 1%;
-            margin-bottom: 2%;
-            font-family: "Karla", sans-serif;
-     
-             .emailBox{
-                 width: 70%;
-                 margin-left: 15%;
-                 border:2px solid#007a88;
-                 color: #000000;
-                 border-radius: 10px;
-                 margin-bottom: 1%;
-             }
-             .numBox{
-                 width: 70%;
-                 margin-left: 15%;
-                 border:2px solid#007a88;
-                 color: #000000;
-                 border-radius: 10px;
-             }
-         }
         }
      }
 }
@@ -1225,58 +1128,6 @@
             img{
                 border-radius: 10px;
             }
-         
-            .formContainer{
-             display: flex;
-             flex-direction: column;
-             align-items: center;
-             margin-left: 5%;
-             margin-top: 2%;
-             color: #000000;
-         
-             .consultaBox{
-                 border:2px solid#007a88;
-                 font-family: "Karla", sans-serif;
-                 width: 70%;
-                 color: #000000;
-                 border-radius: 10px;
-    
-             }
-             .sendInfoBox{
-                 border:2px solid#007a88;
-                 font-family: "Karla", sans-serif;
-                 width: 50%;
-                 color: #000000;
-                 border-radius: 10px;
-                 margin-bottom: 4%;
-             }
-         
-             .emailInfo{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                width: 100%;
-                margin-top: 1%;
-                margin-bottom: 2%;
-                font-family: "Karla", sans-serif;
-         
-                 .emailBox{
-                     width: 70%;
-                     margin-left: 15%;
-                     border:2px solid#007a88;
-                     color: #000000;
-                     border-radius: 10px;
-                     margin-bottom: 1%;
-                 }
-                 .numBox{
-                     width: 70%;
-                     margin-left: 15%;
-                     border:2px solid#007a88;
-                     color: #000000;
-                     border-radius: 10px;
-                 }
-             }
-            }
          }
 
          .mapouter{
@@ -1468,60 +1319,6 @@
             img{
                 border-radius: 10px;
             }
-         
-            .formContainer{
-             display: flex;
-             flex-direction: column;
-             align-items: center;
-             margin-left: 5%;
-             margin-top: 2%;
-             color: #000000;
-         
-             .consultaBox{
-                 border:2px solid#007a88;
-                 text-align: start;
-                 font-family: "Karla", sans-serif;
-                 width: 90%;
-                 color: #000000;
-                 border-radius: 10px;
-                 padding-top:2%;
-    
-             }
-             .sendInfoBox{
-                 border:2px solid#007a88;
-                 font-family: "Karla", sans-serif;
-                 width: 90%;
-                 color: #000000;
-                 border-radius: 10px;
-                 margin-bottom: 4%;
-             }
-         
-             .emailInfo{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                width: 100%;
-                margin-top: 1%;
-                margin-bottom: 2%;
-                font-family: "Karla", sans-serif;
-         
-                 .emailBox{
-                    width: 90%;
-                     margin-left: 5%;
-                     border:2px solid#007a88;
-                     color: #000000;
-                     border-radius: 10px;
-                     margin-bottom: 1%;
-                 }
-                 .numBox{
-                    width: 90%;
-                     margin-left: 5%;
-                     border:2px solid#007a88;
-                     color: #000000;
-                     border-radius: 10px;
-                 }
-             }
-            }
          }
 
          .mapouter{
@@ -1659,6 +1456,62 @@
             }
         }
     }
+    //FORMULARIO
+.formContainer{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
+.field {
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .field label {
+    display: block;
+    font-size: 12px;
+    color: #ffffff;
+    border-radius: 10px;
+  }
+  .field input {
+    display: block;
+    min-width: 200px;
+    line-height: 1.5;
+    font-size: 14px;
+    border-radius: 10px;
+    color: #000000;
+    padding: 10px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    padding: 6px 30px;
+    font-size: 14px;
+    background-color: #4460AA;
+    border-radius: 10px;
+    color: #fff;
+    border: none
+  }
+//ENDFORMULARIO
+.infoContainerBody{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 90%;
+    background-color: #333336;
+ 
+    .imgLogoInfoContainer{
+        display: flex;
+        justify-content: center;
+    }
+    img{
+        border-radius: 10px;
+        width: 50%;
+    }
+ }
+
 }
 @media (max-width: 280px){
     .dataContainer{
